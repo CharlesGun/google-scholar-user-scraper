@@ -1,11 +1,7 @@
 const puppeteer = require("puppeteer")
 const excel = require("./excel")
 let arr = [
-    "https://scholar.google.com/citations?user=fckDT2oAAAAJ&hl=id&oi=ao",
-    "https://scholar.google.com/citations?user=6TfiIDQAAAAJ&hl=id&oi=ao",
-    "https://scholar.google.com/citations?hl=id&user=EnMigTsAAAAJ",
-    "https://scholar.google.com/citations?hl=id&user=gVttN-IAAAAJ",
-    "https://scholar.google.com/citations?user=3pCLMJoAAAAJ&hl=id"
+    // users or lecturers link
 ]
 let data = []
 const scrape = async (link) => {
